@@ -1,0 +1,21 @@
+const {testExtractJSON} = require('./tests/extractJSON.js');
+const {testGetJsonEndIndex} = require('./tests/getJsonEndIndex.js');
+const {testGetJsonStartIndex} = require('./tests/getJsonStartIndex.js');
+const {testIsJSON} = require('./tests/isJSON.js');
+const {testJsonStringToObject} = require('./tests/jsonStringToObject.js');
+const {testObjectToJsonString} = require('./tests/objectToJsonString.js');
+const {testRemoveNonJsonKeys} = require('./tests/removeNonJsonKeys.js');
+const {testReplaceTextAfterJson} = require('./tests/replaceTextAfterJson.js');
+const {testReplaceTextBeforeJson} = require('./tests/replaceTextBeforeJson.js');
+const {testTrimTextAroundJson} = require('./tests/trimTextAroundJson.js');
+
+testExtractJSON();
+testGetJsonEndIndex();
+testGetJsonStartIndex();
+testIsJSON();
+testJsonStringToObject();
+testObjectToJsonString();
+testRemoveNonJsonKeys();
+testReplaceTextAfterJson();
+testReplaceTextBeforeJson();
+testTrimTextAroundJson();

@@ -1,0 +1,10 @@
+exports.extractJSON = require('./functions/extractJSON');
+exports.getJsonEndIndex = require('./functions/getJsonEndIndex');
+exports.getJsonStartIndex = require('./functions/getJsonStartIndex');
+exports.isJSON = require('./functions/isJSON');
+exports.jsonStringToObject = require('./functions/jsonStringToObject');
+exports.objectToJsonString = require('./functions/objectToJsonString');
+exports.removeNonJsonKeys = require('./functions/removeNonJsonKeys');
+exports.replaceTextAfterJson = require('./functions/replaceTextAfterJson');
+exports.replaceTextBeforeJson = require('./functions/replaceTextBeforeJson');
+exports.trimTextAroundJson = require('./functions/trimTextAroundJson');

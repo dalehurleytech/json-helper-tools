@@ -1,0 +1,22 @@
+{
+  "name": "@hero-page/json-helper-tools",
+  "version": "1.0.0",
+  "description": "A collection of utilities to check if a string contains JSON that can be used in JSON.parse() and removes any text before or after.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {},
+  "keywords": [
+    "json",
+    "helper",
+    "tools",
+    "JSON.parse",
+    "utilities",
+    "string",
+    "javascript"
+  ],
+  "author": "Sam Chahine",
+  "license": "MIT",
+  "dependencies": {}
+}
